@@ -1,0 +1,51 @@
+.store-cart {
+    h2 {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        color: #0C0D36;
+    }
+
+    .product-title {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: #0C0D36;
+    }
+
+    .product-subtitle {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #979797;
+    }
+
+    .table-cart {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .cart-image {
+        border-radius: 8px;
+        max-height: 85px;
+    }
+
+    .btn-remove-item {
+        margin-top: 18px;
+
+        @include button-variant(#FC5E84, transparent)
+    }
+
+    .btn-checkout-store {
+        @include button-variant($primary-color, transparent)
+    }
+
+    .total-cart {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: $accent1;
+    }
+
+}
