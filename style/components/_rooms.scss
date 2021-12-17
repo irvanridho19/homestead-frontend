@@ -23,25 +23,51 @@
 }
 
 .wisma-type-container {
+    margin-top: 12px;
+
     .product-text {
         font-weight: 600;
         font-family: $title;
-        font-size: 16px;
+        font-size: 18px;
         color: $black-color;
     }
 
     .product-price {
         font-family: $subtitle;
-        font-weight: 500;
-        font-size: 13px;
+        font-weight: 600;
+        font-size: 15px;
         color: $accent1;
+        text-align: right;
     }
 
     .tipe-wisma {
         font-family: $subtitle;
         font-weight: 500;
+        font-size: 13px;
+        color: $primary-color;
+        margin-bottom: 0.25rem;
+    }
+
+    .fasilitas-wisma {
+        font-family: $subtitle;
+        font-weight: 500;
         font-size: 12px;
-        color: grey;
+        color: $black-color;
+        text-transform: capitalize;
+        margin-bottom: 0.25rem;
+
+        span {
+            color: $black-color;
+            font-weight: 500;
+            font-style: normal;
+        }
+    }
+
+    .btn-wa {
+        background: $primary-color;
+        color: white;
+        font-size: 14px;
+        font-family: $subtitle;
     }
 }
 
